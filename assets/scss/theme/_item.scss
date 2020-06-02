@@ -1,0 +1,71 @@
+.overview-section .item{
+    margin-bottom:2rem;
+
+    .item-desc{
+        font-size:0.875rem;
+    }
+        
+    .item-title{
+        font-size:1rem;
+    }
+    
+    &:hover{
+        background: $theme-bg-light;
+        .progress {
+            background-color: #fafafa;
+        }
+    }
+        
+    .item-icon{
+        font-size:1.875rem;
+        color:$theme-color-primary;
+
+        .fa-angular{
+            color:#CA3327;
+        }
+
+        .fa-js-square{
+            color:#F1DE4F;;
+        }
+        
+        .fa-sass {
+            color: #E777A8;
+        }
+
+        .fa-less {
+            color: #21429B;
+        }
+
+        .fa-html5 {
+            color: #FF8C13;
+        }
+
+        .fa-css3-alt {
+            color: #1693EC;
+        }
+
+        .fa-python {
+            color: #317DB3;
+        }
+
+        .fa-php {
+            color: #524DB3;
+        }
+
+        .fa-java {
+            color: #EC2D2D;
+        }
+
+        .fa-bootstrap {
+            color: #492DA6;
+        }
+
+        .fa-database {
+            color: #2DA672;
+        }
+
+        .fa-laravel {
+            color: #ff2d20;
+        }
+    }
+}

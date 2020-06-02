@@ -1,0 +1,98 @@
+.svg-card {
+    border-radius: 0;
+    background: $theme-bg-light;
+    border: 1px solid rgba(0,0,0,0.025);
+    height: 100%;
+    
+    .card-img {
+        border-radius: 0;
+        margin-top: 2.5em;
+    }
+    
+    .card-img, .card-img-bottom {
+    flex-shrink: 0;
+    width: 100%;
+    }
+    
+    .card-img-top {
+        padding-top: 0.25em;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+    
+    .card-img-holder {
+        max-height: 200px;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+}
+
+.card-footer {
+    border-top: none;
+    background: none;
+    padding-top: 0;
+}
+
+.card-features, .card-graphic, .card-limit{
+    -webkit-box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
+    background: $theme-bg-light;
+    border: 0px;
+    height: 100%;
+    
+    .date {
+        color: $theme-text-color-date !important;
+    }
+}
+
+.card-icon {
+    i {
+        padding-top: 1.25rem;
+        padding-left: 1.25rem;
+        font-size: 2.5rem;
+        color: black;
+    }
+}
+
+//grafphic page
+.card-graphic {
+    
+    ul{
+        padding: 0px;
+    }
+    li{
+        list-style-type: none; 
+    }
+}
+
+//grafphic page - weather
+.card-limit {
+    i {
+        padding-top: 1.25rem;
+        font-size: 4.7rem;
+        margin-right: 10px;
+    }
+    ul{
+        padding: 0px;
+    }
+    li{
+        list-style-type: none;
+        font-size: 4.3rem;
+        margin-top: 12%;
+    }
+    .card-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fa-thermometer-three-quarters {
+        color:#FF4D58;
+    }
+    .fa-thermometer-quarter, .fa-tint, .fa-tint-slash{
+        color: #4D9EFF;
+    }
+    .fa-tint {
+        margin-left: 21px;
+        margin-right: 22px;
+    }
+}
