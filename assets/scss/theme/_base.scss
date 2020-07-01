@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
 	font-weight: bold;
 	padding: .375rem 1rem;
-	height: 2.75rem;
 	@include transition(all 0.4s ease-in-out);
 }
 
@@ -133,7 +132,12 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .profile-image{
-        max-width:400px;
+		max-width:400px;
+		border-radius: 0px 19px 0px 18px;
+		-moz-border-radius: 0px 19px 0px 18px;
+		-webkit-border-radius: 0px 19px 0px 18px;
+		border: 2px solid #54b689;
+		
     }
     
     .tagline{
@@ -284,7 +288,6 @@ h1, h2, h3, h4, h5, h6 {
     
     div{
         text-align: center;
-        background: $theme-bg-light !important;
     }
 }
 
@@ -336,4 +339,12 @@ h1, h2, h3, h4, h5, h6 {
 	a {
 		color: #fff;
 	}
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }

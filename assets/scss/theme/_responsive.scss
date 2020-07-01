@@ -23,7 +23,6 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     
-	
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -43,6 +42,11 @@
             margin-top: 7%;
         }
     }
+    .profile-teaser {
+        .profile-image{
+            max-width:250px;
+        }
+    } 
 }
 
 
@@ -76,10 +80,23 @@
     }
     
     .card-limit {
-        li{
-            font-size: 2.9rem;
+        .item{
+            font-size: 2.5rem;
             margin-top: 7%;
         }
+        .fa-tint {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }  
+    .profile-teaser {
+        .profile-image{
+            max-width: 100%;
+        }
+    }  
+    
+    .padre-flex {
+        height: calc(100vh - (40px + 72px));
     }
 }
 
@@ -98,11 +115,6 @@
 			width: 100%;
 		}
 	}
-    .profile-teaser {
-        .profile-image{
-            max-width: 100%;
-        }
-    }
     .card-img-top {
         width: 100%;
         flex-shrink: 0;
@@ -110,28 +122,13 @@
     
     .card-limit {
         .card-body{
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        li{
-            float: left;
-            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
         .space{
             margin-left: 10%;
         }
-    }
-}
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-	.card-limit {
-        /*.card-body{
-            margin-left: 5%;
-            margin-right: 5%;
-        }*/
-        li{
-            float: left;
+        .item {
             margin-top: 0px;
             font-size:1.8rem;
         }
@@ -141,5 +138,14 @@
             margin-right: 3px;
         }
     }
+
+    .size50 {
+        width: 100% !important;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
 }
 
