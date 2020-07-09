@@ -189,7 +189,10 @@ h1, h2, h3, h4, h5, h6 {
 /*scroll sidevar*/
 .scroll{
     overflow-y:scroll;
-    height: 100%;
+	height: 100%;
+	
+	scrollbar-color: $theme-color-primary-dark transparent;
+  	scrollbar-width: thin;
 }
 .scroll::-webkit-scrollbar {
     width: 7px;

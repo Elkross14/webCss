@@ -139,6 +139,10 @@
         }
     }
 
+    .flip-card {
+        height: 350px;
+    }
+
     .size50 {
         width: 100% !important;
     }
@@ -146,6 +150,14 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-
+    .flip-card {
+        height: 450px;
+    }
 }
 
+// Extra extra small devices (portrait phones, less than 400px)
+@media (max-width: 400px) {
+    .flip-card {
+        height: 500px;
+    }
+}
