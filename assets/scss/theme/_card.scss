@@ -34,31 +34,44 @@
     padding-top: 0;
 }
 
-.card-features, .card-graphic, .card-limit{
+.card-features, .card-graphic, .card-limit, .card-no-align{
     -webkit-box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
     -moz-box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
     box-shadow: 10px 10px 28px -5px rgba(0,0,0,0.3);
     background: $theme-bg-light;
     border: 0px;
-    height: 100%;
+    //height: 100%;
     
     .date {
         color: $theme-text-color-date !important;
     }
 }
 
+.card-features {
+    height: 100%;
+}
+
 .card-icon {
+
+    .fas {
+        margin-right: 0;
+    }
+
     i {
-        padding-top: 1.25rem;
-        padding-left: 1.25rem;
         font-size: 2.5rem;
-        color: black;
+        color: white;
+    }
+    
+    .card-skill-body {
+        padding-top: 40px;
     }
 }
 
 //grafphic page
 .card-graphic {
-    
+
+    height: 100%;
+
     ul{
         padding: 0px;
     }
@@ -69,6 +82,8 @@
 
 //grafphic page - weather
 .card-limit {
+    height: 100%;
+
     i {
         padding-top: 1.25rem;
         font-size: 4.7rem;

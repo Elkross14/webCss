@@ -19,3 +19,53 @@
 .quiz-titulo-puntos {
     font-size: 1.35rem;
 }
+
+//answer-block
+.answer-block {
+    position: fixed;
+    width: calc(100% - 280px);
+    bottom: 0px;
+    right: 0px;
+}
+
+.quiz-message {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.fas {
+    font-size: 1.35rem;
+    margin-right: 10px;
+}
+
+.timeOut {
+    color:$success-color;
+}
+
+.timeOut-bg {
+	background-color: $success-color;
+}
+
+.timeOut-bg-light {
+	background-color: lighten($theme-text-color-date, 20%);
+}
+
+
+//progress-block
+.progress-block {
+    width: calc(100% - 280px);
+    top: 0px;
+    right: 0px;
+}
+
+.time-icon {
+    font-size: 1.6rem;
+}
+
+.timer {
+    font-size: 1.3rem;
+}
+
+.closed-icon {
+    font-size: 2rem;
+}

@@ -93,10 +93,16 @@
         .profile-image{
             max-width: 100%;
         }
-    }  
+    }
     
-    .padre-flex {
-        height: calc(100vh - (40px + 72px));
+    //quiz
+    .answer-block {
+        width: 100%;
+    }
+
+    .progress-block {
+        top: 72px;
+        width: 100%;
     }
 }
 

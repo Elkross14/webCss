@@ -9780,7 +9780,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0px 19px 0px 18px;
   -moz-border-radius: 0px 19px 0px 18px;
   -webkit-border-radius: 0px 19px 0px 18px;
-  border: 2px solid #54b689;
+  border: 2px solid #54B689;
 }
 
 .profile-teaser .tagline {
@@ -9857,18 +9857,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-.promo-section {
-  margin-bottom: 40px;
-}
-
-.promo-section .promo-image {
-  max-width: 320px;
-}
-
-.promo-section .promo-section-inner {
-  background: #54B689;
-}
-
 /*section*/
 .section-title {
   font-size: 2rem;
@@ -9905,6 +9893,15 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.third-title {
+  padding: 0px 10px 3px 30px;
+  display: inline-block;
+  color: #54B689;
+  border-style: solid;
+  border-color: #54B689;
+  border-width: 1px;
+}
+
 .error {
   color: #FF3E2E;
 }
@@ -9929,69 +9926,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #86e29b;
 }
 
-.code-line {
-  background: #EDFFF6 !important;
-  color: #54B689;
-  padding: 2px 4px;
-}
-
-.floating-box {
-  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  margin-right: 15px;
-  overflow-x: scroll;
-  height: 100%;
-  border-radius: 3px;
-  scrollbar-color: #959595 #767676;
-  scrollbar-width: thin;
-}
-
-.floating-box::-webkit-scrollbar {
-  height: 10px;
-}
-
-.floating-box::-webkit-scrollbar-thumb {
-  background: #959595;
-  border-radius: 3px;
-}
-
-.floating-box::-webkit-scrollbar-track {
-  background: #767676;
-}
-
-.padre-flex {
-  align-items: center;
-  justify-content: center;
-}
-
-.padre-flex div {
-  text-align: center;
-}
-
 .color-main {
   color: #54B689;
-}
-
-.leyend li {
-  list-style-type: none;
-  font-weight: bold;
-}
-
-.leyend li a {
-  color: #292929;
-}
-
-.leyend li a:before {
-  content: "# ";
-  color: #54B689;
-}
-
-.leyend li li {
-  font-weight: normal;
-}
-
-.leyend li li li a {
-  color: #8f8f8f;
 }
 
 /*sobreescrito de bootstrap*/
@@ -10022,6 +9958,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .gray-light {
   color: #959595;
+}
+
+/* skills */
+.skill-icon {
+  background-color: #54B689;
+  width: 80px;
+  height: 80px;
+  padding-top: 1.25rem;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
 }
 
 /* ============= Blog Page ============= */
@@ -10171,6 +10118,62 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-post .blockquote p {
   font-size: 1.5rem;
+}
+
+.floating-box {
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-right: 15px;
+  overflow-x: scroll;
+  height: 100%;
+  border-radius: 3px;
+  scrollbar-color: #959595 #767676;
+  scrollbar-width: thin;
+}
+
+.floating-box::-webkit-scrollbar {
+  height: 10px;
+}
+
+.floating-box::-webkit-scrollbar-thumb {
+  background: #959595;
+  border-radius: 3px;
+}
+
+.floating-box::-webkit-scrollbar-track {
+  background: #767676;
+}
+
+.leyend ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.leyend ul a {
+  color: #292929;
+}
+
+.leyend ul a:before {
+  content: "# ";
+  color: #54B689;
+}
+
+.leyend ul ul {
+  font-weight: normal;
+}
+
+.leyend ul ul ul a {
+  color: #8f8f8f;
+}
+
+.code-line {
+  background: #EDFFF6 !important;
+  color: #54B689;
+  padding: 2px 4px;
+}
+
+.blog h3, .blog h4 {
+  font-size: 1rem;
 }
 
 /* ============= About Page ============= */
@@ -10330,11 +10333,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+.card-icon .fas {
+  margin-right: 0;
+}
+
 .card-icon i {
-  padding-top: 1.25rem;
-  padding-left: 1.25rem;
   font-size: 2.5rem;
-  color: black;
+  color: white;
+}
+
+.card-icon .card-skill-body {
+  padding-top: 40px;
 }
 
 .card-graphic {

@@ -13,7 +13,11 @@ $theme-bg-light: #EDFFF6;
 $theme-bg-dark: #223142;
 $theme-border-color:  lighten($theme-text-color-primary, 60%);
 $smoky-white: #fafafa;
-$error-color: #F25B49;
+$error-color: #FF3E2E;
+$error-color-bg: lighten($error-color, 30%);
+$success-color: #28a745;
+$success-color-bg: lighten($success-color, 30%);
+$gray-light: #959595;
 
 
 /*************************** Variables Section. *****************************/
